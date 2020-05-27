@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<odoo>
+
+    <record id="action_skype" model="ir.actions.act_window">
+            <field name="name">Skype Contacts</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.partner</field>
+            <field name="view_mode">kanban,tree,form</field>
+    </record>
+
+     <menuitem id="skype_integration_menu_root"
+              name="Skype"
+              sequence="1"
+              action="action_skype"
+    />
+
+</odoo>
